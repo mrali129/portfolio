@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title> My Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <div class="portfolio-container">
+      <ul class="navlist">
+       <li><a href="#" class="active">Home</a></li>
+       <li><a href="#about-me">About Me</a></li>
+       <li><a href="#education">Education</a></li>
+       <li><a href="#projects">Projects</a></li>
+       <li><a href="#skills">Skills</a></li>
+       <li><a href="#contact-me">Contact Us</a></li>
+      </ul>
+      <div class="left-container">
+        <div class="icons">
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-linkedin-in"></i>
+          <i class="fa-brands fa-github"></i>
+          <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="contant">
+          <p class="intro"> Hi! I Am <span>Hafiz Ali</span> </p>
+          <h1>Full Stac Develper.</h1>
+          <p class="detail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima unde delectus ullam sint doloribus perferendis, doloremque expedita. Dolorem, atque sunt!</p>
+          <div class="btn-container">
+            <button> Hire Me</button>
+            <button> View Projects</button>
+          </div>
+        </div>
+      </div>
+      <div class="right-container"></div>
+      <div class="design">
+        <div class="circle"></div>
+        <div class="circle"></div>
+      </div>
+     </div>
+     <section class="about-me" id="about-me">
+        <div>
+          <h1 class="hading-1">About Me</h1>
+        <div class="about">
+          <img src="image/mypic1.jpg" class="pic-1" />
+          <div class="text">
+            <h3> Full Stack Developer & <span>Designer</span></h3>
+            <p>I am Hafiz Ali. I am deeply passionate about the art of <b class="boled">Telavat-e-Quran</b> that celebrate the beauty of faith and devotion.</p>
+                    <p> I have completed my <b class="boled">Matric</b> from Iqra Hufaz Secondry School Lahore. </p>
+                    <p> I am also enhancing my technical proficiency by undertaking a Full Stack Developer course at <b class="boled">PNY Training Institute</b>, Shahdara Branch.</p>
+          </div>
+        </div>
+    </div>
+      </section>
+      <section class="about-me" id="education">
+        <div>
+          <h1 class="hading-1">Education</h1>
+        <div class="about">
+          <img src="image/education.jpg" class="pic-2" />
+          <div class="text">
+          <p> <b>Matric in Computer Science </b>
+            <br>
+            Iqra Hufaz Secondry School Lahore.<b  class="boled">(2022-2024)</b> 
+            </p>
+            <br>
+            <p><b>Hafiz AlQuran</b>
+            Iqra Hufaz Secondry School Lahore.<b class="boled">(2017)</b> </p>
+            <br>
+            <p><b>Full Stack Web Development Course</b>
+               <br>
+               PNY Training Institute,Shahdara Branch. <b class="boled">(2024)</b></p>
+               <br>
+        </div>
+        </div>
+      </section>
+      <section class="projects" id="projects">
+        <div class>
+          <h2>My Projects</h2>
+         <div class="project-cards">
+               <div class="project-card">
+             <img src="image/portfolio.webp" class="pic-p" />      
+                <p class="p-contant">Developed a and dynamic portfolio website using HTML, CSS, and JavaScript to showcase my projects and skills.</p>
+               </div>  
+          <div class="project-card">
+            <img src="image/e-commerce.jpeg" class="pic-p" />
+                <p class="p-contant"> Created a fully functional e-commerce site using MERN stack, including product listings, user authentication, and payment integration.</p>
+               </div>       
+      <div class="project-card">
+        <img src="image/blog.jpeg" class="pic-p" />
+                  <p class="p-contant">Built a blogging platform with a content management system using Node.js, Express, and MongoDB, featuring user registration and article management.</p>
+                </div>
+         </div>
+      </div>  
+ </section>
+ <section id="skills">
+       <h1>My Skills</h1>
+       <div class="skill">
+       <li> <img src="image/htm.png" class="s-pic"/></li>
+        <li><span class="blueline html"></span></li>
+       
+       </div>
+       <div class="skill">
+        <li><img src="image/css.png" class="s-pic"/></li>
+          <li><span class="blueline css"></span></li> 
+        
+        </div>
+        <div class="skill">
+          <li><img src="image/js.jpeg" class="s-pic"/></li>
+          <li><span class="blueline javascript"></span></li> 
+          
+          </div>
+ </section>
+<section id="contact-me">
+<h2 class="hading-contact" >Contact Us</h2>
+<div>
+<form>
+    <p>If you have any questions or would like to get in touch, please fill out the form below.</p>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your Name"  required>
+        </div>
+        <div class="form-group">
+            <label for="last name">Last Name</label>
+            <input type="text" id="name" placeholder="Father Nmae" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Example@gmail.com" required>
+        </div>
+        <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" rows="5" placeholder="Text Any Message....." required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+</form>
+</div>
+</section>
+<footer class="footer">
+  <div class="container">
+      <div class="footer-content">
+         <p>&copy; Hafiz Ali Murtaza. All rights reserved.</p> 
+         
+      </div>
+  </div>
+</footer>
+</body>
+</html> 
