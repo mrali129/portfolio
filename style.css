@@ -82,20 +82,18 @@
 }
 button:nth-child(1){
     background: #5DB9ee;
-    color: #262525;
 }
 button:nth-child(2){
-    background: transparent;
-    color: #5DB9ee;
+    background: #5DB9ee;
+    color: #262525;
     margin-left: 2rem;
 }
 button:nth-child(1):hover{
     background: transparent;
-    color: #5DB9ee;
+    color: #262525;
 }
 button:nth-child(2):hover{
-    background: #5DB9ee;
-    color: #262525;
+    background: #262525;
 }
 .icons .fa-brands:hover{
     cursor: pointer;
@@ -288,7 +286,8 @@ h1{
     margin-top: 50px;
 }
 .blueline { 
-    height: 3px; 
+    border-radius: 10px;
+    height: 15px; 
     margin: 2px 0; 
     background: #2187e7; 
     position: absolute;
